@@ -14,7 +14,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",  
-        "https://YOUR-FRONTEND-URL.vercel.app",
+        "https://todo-v2-gamma.vercel.app",
         ],
     allow_credentials=True,
     allow_methods=["*"],
